@@ -88,6 +88,14 @@ h3 {
 	color: #24505c;
 }
 
+nav a {
+	color: #000000;
+}
+
+nav a:hover {
+	color: #7d8489;
+}
+
 @media screen and (min-width: 1200px) {
     html {
     	max-width: 1200px;
@@ -95,25 +103,70 @@ h3 {
 }
 
 @media screen and (min-width: 1000px) {
-	body{
-
-	}
 
 	header {
 		display: flex;
 	}
 
 	#login {
+		display: flex;
 		flex: 1;
+		align-self: center;
+		justify-content: end;
+
 	}
 
 	#login p {
+		display: flex;
 		margin: 0;
+		align-self: center;
+		justify-content: end;
+		width: 60%;
+		font-size: 1.25em;
+		padding: 1%;
 	}
 
-	h1 {
+	#login svg {
+		display: flex;	
+		height: 10%;
+		padding: 1%;
+	}
+
+	header h1 {
+		display: flex;
 		flex: 1;
 		margin: 0;
 		align-self: center;
+		width: 30%;
+	}
+
+	header svg {
+		display: flex;
+		width: 10%;
+	}
+
+	nav section {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		width: 33%;
+		margin-left: 33%;
+		margin-top: 1%;
+		background-color: #7d8489;
+		border-radius: 50px 50px 50px 50px;
+	}
+
+	nav section p {
+		color: #f7eee2;
+	}
+
+	nav ul{
+		text-align: center;
+	}
+
+	nav li {
+		display: inline;
+		padding: 0 3% 0 3%;
+		font-size: 1.25em;
 	}
 }
