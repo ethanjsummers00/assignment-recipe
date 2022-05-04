@@ -289,4 +289,80 @@ nav a:hover {
 
 }
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1000px) {
+	header {
+		display: flex;
+	}
+
+	#login {
+		display: flex;
+		flex: 1;
+		align-self: center;
+		justify-content: end;
+
+	}
+
+	#login p {
+		display: none;
+	}
+
+	#login svg {
+		display: flex;	
+		width: 20%;
+	}
+
+	header h1 {
+		display: flex;
+		flex: 1;
+		margin: 0;
+		align-self: center;
+		width: 30%;
+		font-size: 2em;
+	}
+
+	header svg {
+		display: flex;
+		width: 10%;
+		height: 10%;
+	}
+
+	main {
+		margin: 2%;
+	}
+
+	nav section {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		width: 66%;
+		margin-left: 16.5%;
+		margin-top: 1%;
+		background-color: #7d8489;
+		border-radius: 50px 50px 50px 50px;
+	}
+
+	nav section p {
+		color: #f7eee2;
+	}
+
+	nav ul{
+		text-align: center;
+	}
+
+	nav li {
+		display: inline;
+		padding: 0 3% 0 3%;
+		font-size: 1.25em;
+	}
+
+	main h2 {
+		text-align: center;
+		margin: 3% 0 1% 0;
+		font-size: 2em;
+	}
+
+	main h3 {
+		margin: 3% 0 0 0;
+		font-size: 1.5em;
+	}
+}
