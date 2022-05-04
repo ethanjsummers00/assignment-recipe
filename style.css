@@ -103,7 +103,6 @@ nav a:hover {
 }
 
 @media screen and (min-width: 1000px) {
-
 	header {
 		display: flex;
 	}
@@ -169,4 +168,125 @@ nav a:hover {
 		padding: 0 3% 0 3%;
 		font-size: 1.25em;
 	}
+
+	main {
+		margin: 2%;
+	}
+
+	main h2 {
+		text-align: center;
+		margin: 3% 0 1% 0;
+	}
+
+	main h3 {
+		margin: 3% 0 0 0;
+	}
+
+
+	#shareOptions {
+		text-align: center;
+	}
+
+	#description {
+		display: flex;
+	}
+
+	aside {
+		display: flex;
+		float: right;
+		width: 20%;
+	}
+
+	article {
+		float: left;
+		width: 80%;
+	}
+
+	article p {
+		padding-right: 10%;
+	}
+
+	aside img{
+		flex: 1;
+		width: 100%;
+		border: #122630;
+		border-style: solid;
+	}
+
+	footer {
+		padding: 1%;
+		background-color: #122630;
+		color: #f7eee2;
+	}
+
+	ul, ol {
+		line-height: 200%;
+		margin: 1% 0 0 0;
+	}
+
+	#ingredients ul {
+		list-style: circle;
+		margin-left: 1%;
+	}
+
+	#directions ol {
+		list-style: decimal;
+		margin-left: 1%;
+		margin-right: 25%;
+	}
+
+	em {
+		color: #24505c;
+		font-style: bold;
+	}
+
+	#sides {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	figure {
+		text-align: center;
+	}
+
+	figure img {
+		max-width: 75%;
+		border: #122630;
+		border-style: solid;
+	}
+
+	figcaption a{
+		color: #24505c;
+		font-size: 1.25em;
+		text-decoration: none;
+	}
+
+	figcaption a:hover{
+		color: #122630;
+	}
+
+	footer a {
+		color: #f7eee2;
+		padding: 1%;
+	}
+
+	footer a:hover {
+		color: #7d8489;
+	}
+
+	#sitemap li, #security li, #media {
+		display: inline;
+	}
+
+	#media svg {
+		padding: 1% 0.5% 0 0.5%;
+	}
+
+	#bottom {
+		display: flex;
+	}
+
+
 }
+
+@media screen and (max-width: 1000px)
